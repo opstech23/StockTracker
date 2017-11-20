@@ -1,0 +1,8 @@
+<% if stock.present? %>
+	<%# byebug %>
+	<strong>Symbol:</strong> <%= @stock.symbol %>
+	<strong>Name:</strong> <%= @stock.name %>
+	<strong>Price:</strong> <%= @stock.cp %>
+<% else %>
+	<strong>Stock not present</strong>
+<% end %>

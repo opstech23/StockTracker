@@ -1,4 +1,7 @@
 class UsersController < ApplicationController
+  def my_portfolio
+  end
+  
   def new
   	@user = User.new
   end
